@@ -1,0 +1,41 @@
+﻿l_polish:
+
+  edict_add_authoritarian: "Add authoritarian ethic"
+  edict_add_authoritarian_desc: "Add an authoritarian ethic"
+  edict_remove_authoritarian: "Remove authoritarian ethic"
+  edict_remove_authoritarian_desc: "Remove an authoritarian ethic"
+
+  edict_add_egalitarian: "Add egalitarian ethic"
+  edict_add_egalitarian_desc: "Adds an egalitarian ethic"
+  edict_remove_egalitarian: "Remove egalitarian ethic"
+  edict_remove_egalitarian_desc: "Removes an Egalitarian ethic"
+
+  edict_add_materialist: "Add materialist ethic"
+  edict_add_materialist_desc: "Adds a materialist ethic"
+  edict_remove_materialist: "Remove materialist ethic"
+  edict_remove_materialist_desc: "Removes an materialist ethic"
+
+  edict_add_militarist: "Add militarist ethic"
+  edict_add_militarist_desc: "Adds a militarist ethic"
+  edict_remove_militarist: "Remove militarist ethic"
+  edict_remove_militarist_desc: "Removes a militarist ethic"
+
+  edict_add_pacifist: "Add pacifist ethic"
+  edict_add_pacifist_desc: "Adds a pacifist ethic"
+  edict_remove_pacifist: "Remove pacifist ethic"
+  edict_remove_pacifist_desc: "Removes a pacifist ethic"
+
+  edict_add_spiritualist: "Add spiritualist ethic"
+  edict_add_spiritualist_desc: "Adds a spiritualist ethic"
+  edict_remove_spiritualist: "Remove spiritualist ethic"
+  edict_remove_spiritualist_desc: "Removes a spiritualist ethic"
+
+  edict_add_xenophile: "Add xenophile ethic"
+  edict_add_xenophile_desc: "Adds a xenophile ethic"
+  edict_remove_xenophile: "Remove xenophile ethic"
+  edict_remove_xenophile_desc: "Removes a xenophile ethic"
+
+  edict_add_xenophobe: "Add xenophobe ethic"
+  edict_add_xenophobe_desc: "Adds a xenophobe ethic"
+  edict_remove_xenophobe: "Remove xenophobe ethic"
+  edict_remove_xenophobe_desc: "Removes a xenophobe ethic"

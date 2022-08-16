@@ -1,0 +1,56 @@
+add_authoritarian = {
+    length = -1
+    edict_cap_usage = 0
+    icon = "GFX_ethics_authoritarian"
+	potential = {
+        is_ai = no
+    }
+	allow = {
+        is_ai = no
+        NOT = {has_ethic = ethic_fanatic_authoritarian}
+    }
+    resources = {
+        category = edicts
+        cost = {
+            influence = 0
+        }
+    }   
+    effect = {
+        if = { limit = { has_ethic = ethic_authoritarian }
+            country_remove_ethic = ethic_authoritarian
+            country_add_ethic = ethic_fanatic_authoritarian
+        }
+        else = { country_add_ethic = ethic_authoritarian }
+    }
+}
+
+remove_authoritarian = {
+    length = -1
+    edict_cap_usage = 0
+    icon = "GFX_ethics_fanatic_authoritarian"
+	potential = {
+        is_ai = no
+    }
+	allow = {
+        is_ai = no
+        OR = {
+            has_ethic = ethic_authoritarian
+            has_ethic = ethic_fanatic_authoritarian
+        }
+    }
+    resources = {
+        category = edicts
+        cost = {
+            influence = 0
+        }
+    }   
+    effect = {
+        if = { limit = {has_ethic = ethic_authoritarian}
+            country_remove_ethic = ethic_authoritarian
+        }
+        else = { 
+            country_remove_ethic = ethic_fanatic_authoritarian 
+            country_add_ethic = ethic_authoritarian        
+        }
+    }
+}
