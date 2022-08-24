@@ -18,7 +18,7 @@ add_xenophobe = {
     effect = {
         if = { limit = {has_ethic = ethic_xenophobe}
             country_remove_ethic = ethic_xenophobe
-            country_add_ethic = ethic_xenophobe
+            country_add_ethic = ethic_fanatic_xenophobe
         }
         else = { country_add_ethic = ethic_xenophobe }
     }
